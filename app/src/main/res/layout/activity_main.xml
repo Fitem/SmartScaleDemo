@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.fitem.smartscaledemo.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/main_pic_margin_top"
+        android:src="@mipmap/ic_people" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/main_text_margin_top"
+        android:text="@string/title"
+        android:textSize="@dimen/main_title_text_size" />
+
+
+    <TextView
+        android:onClick="toScaleByCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="5dp"
+        android:text="@string/scale_by_code_title"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:onClick="toDifferentLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="5dp"
+        android:text="@string/scale_by_layout_title"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</LinearLayout>

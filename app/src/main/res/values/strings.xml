@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SmartScaleDemo</string>
+    <string name="title">手机</string>
+    <string name="phone">手机</string>
+    <string name="tab">平板</string>
+    <string name="scale_by_code_title">代码处理平板兼容</string>
+    <string name="scale_by_layout_title">Layout处理平板兼容</string>
+</resources>

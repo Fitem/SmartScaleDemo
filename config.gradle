@@ -1,0 +1,6 @@
+ext {
+    dependVersion = [
+            // 工具库utilcode
+            utilcodeVersion: "1.9.8"
+    ]
+}
